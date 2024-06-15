@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
-import user_icon from './Assests/th.jpeg'
-import bg_icon from './Assests/2314950.webp'
+
 import { Link } from "react-router-dom";
 import { FaUser,FaLock } from "react-icons/fa";
 const Login=()=> {
