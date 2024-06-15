@@ -62,7 +62,7 @@ body {
   width: 248px;
   height: 36px;
   border-radius: 5px;
-  padding-left: 30px; /* Adjust to make space for the icon */
+  padding-left: 30px; 
 }
 
 .icon {

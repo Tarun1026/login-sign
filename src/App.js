@@ -30,19 +30,12 @@ function App() {
     
       
     
-    // {
-    //   path:"/post",
-    //   element:(
-    //     <>
-    //     <UploadPost/>
-    //     </>
-    //   )
-    // }
+   
   ]);
   return (
     <>
       <RouterProvider router={router} />
-      {/* <Home /> */}
+      
     </>
   );
 }
