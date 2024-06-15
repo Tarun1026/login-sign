@@ -1,0 +1,93 @@
+body {
+    background-color: #9bbce5; /* Your desired background color */
+}
+
+.BGS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    /* background-color: #7156c9; */
+  }
+
+  .SignUpBG{
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    width: 550px;
+    height: 600px;
+    border-radius: 15px;
+    background: linear-gradient(#9c95ea, #9aceea);
+  }
+
+  .SignUp{
+    color: rgba(6, 6, 6, 0.842);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    font-weight: 900;
+    margin-right: 245px;
+    margin-top: 80px;
+  
+  }
+  .input-box-S{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .inpS{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 298px;
+    height: 36px;
+    border-radius: 5px;
+    padding-left: 30px;
+  }
+
+.icons {
+    position: absolute;
+    top: 40%;
+    left: 1px;
+    transform: translateX(650%);
+    /* transform: translateY(-50%); */
+    font-size: 16px;
+    color: #0a0a0a;
+  }
+
+  .LoginLink{
+    font-size: 20px;
+    font-weight: 800;
+    font-style: oblique;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+  .SubmitSignUp button{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 345px;
+    height: 46px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(69, 81, 209);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+  }
+  
+  .SubmitSignUp button:hover {
+    background-color: #4199c8; 
+  }
+
+  .LoginLink{
+    font-style: normal;
+  }
+  .LoginLinkColour{
+    color: rgb(169, 15, 15);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900px;
+
+  }

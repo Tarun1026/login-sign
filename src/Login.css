@@ -1,0 +1,105 @@
+body {
+  background:url('./Components/Assests/2314950.webp')
+  
+}
+
+.BG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+.LoginBG {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 253, 253);
+  width: 450px;
+  height: 500px;
+  border-radius: 15px;
+ 
+  background: linear-gradient(#9c95ea, #9aceea);
+}
+
+.Login {
+  color: rgba(6, 6, 6, 0.842);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-weight: 900;
+  margin-right: 210px;
+  margin-top: 80px;
+}
+
+.Username {
+  margin-left: 90px;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 15px;
+}
+
+.Password {
+  margin-left: 90px;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.input-box {
+  position: relative;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.inp,
+.inp2 {
+  width: 248px;
+  height: 36px;
+  border-radius: 5px;
+  padding-left: 30px; /* Adjust to make space for the icon */
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #0a0a0a;
+}
+
+.Submit button {
+  margin-left: 90px;
+  margin-top: 30px;
+  width: 285px;
+  height: 46px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(69, 81, 209);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+
+.Submit button:hover {
+  background-color: #4199c8;
+}
+
+.SignUpLink {
+  font-size: 20px;
+  font-weight: 800;
+  font-style:normal;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+.SignUpLinkColour {
+  color: rgb(169, 15, 15);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900px;
+}
