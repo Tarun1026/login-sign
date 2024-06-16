@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 20px;
     
   }
 
@@ -17,7 +17,7 @@ body {
     align-items: center;
     background-color: rgb(253, 253, 253);
     width: 550px;
-    height: 600px;
+    height: 700px;
     border-radius: 15px;
     background: linear-gradient(#9c95ea, #9aceea);
   }
@@ -27,10 +27,10 @@ body {
     font-size: 30px;
     display: flex;
     justify-content: center;
-    margin-left: 0px;
+    margin-left: 20px;
     font-weight: 900;
     margin-right: 245px;
-    margin-top: 80px;
+    margin-top: 70px;
   
   }
   .input-box-S{
@@ -40,8 +40,8 @@ body {
   }
 
   .inpS{
-    margin-left: 100px;
-    margin-top: 10px;
+    margin-left: 110px;
+    margin-top: 20px;
     width: 298px;
     height: 36px;
     border-radius: 5px;
@@ -50,9 +50,9 @@ body {
 
 .icons {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 1px;
-    transform: translateX(650%);
+    transform: translateX(720%);
     /* transform: translateY(-50%); */
     font-size: 16px;
     color: #0a0a0a;
@@ -62,14 +62,14 @@ body {
     font-size: 20px;
     font-weight: 800;
     font-style: oblique;
-    margin-top: 30px;
-    margin-left: 100px;
+    margin-top: 20px;
+    margin-left: 110px;
   }
 
   .SubmitSignUp button{
-    margin-left: 100px;
+    margin-left: 110px;
     margin-top: 20px;
-    width: 345px;
+    width: 330px;
     height: 46px;
     border-radius: 5px;
     color: white;
@@ -90,4 +90,12 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900px;
 
+  }
+
+  .error-message-2 {
+    color: red;
+    font-size: 18px;
+    
+    margin-left: 140px;
+    display: block;
   }
