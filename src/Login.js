@@ -16,12 +16,6 @@ const Login = () => {
     setUser({ ...user, [name]: value });
   };
 
-const onLogin=()=>
-  {
-    if (user.Username==""|| user.Password==""){
-      console.log('gf')
-    }
-  }
 
 
   const handleSubmit = (e) => {
@@ -87,7 +81,7 @@ const onLogin=()=>
           </div>
 
           <div className="Submit">
-            <button type="submit" onClick={onLogin} > 
+            <button type="submit" > 
               LOGIN
           
             </button>
