@@ -33,12 +33,12 @@ body {
   justify-content: center;
   margin: 10px;
   font-weight: 900;
-  margin-right: 215px;
+  margin-right: 13.5rem;
   margin-top: 60px;
 }
 
 .Username {
-  margin-left: 90px;
+  margin-left: 5.625rem;
   font-size: 1.25em;
   font-weight: 900;
   font-style: normal;
@@ -46,7 +46,7 @@ body {
 }
 
 .Password {
-  margin-left: 90px;
+  margin-left: 5.625rem;
   font-size: 1.25rem;
   font-weight: 900;
   font-style: normal;
@@ -55,16 +55,16 @@ body {
 
 .input-box {
   position: relative;
-  margin-left: 90px;
+  margin-left: 5.6em;
   margin-top: 10px;
 }
 
 .inp,
 .inp2 {
-  width: 248px;
-  height: 36px;
+  width: 18.7em;
+  height: 2.5em;
   border-radius: 5px;
-  padding-left: 30px; 
+  padding-left: 2.2em; 
 }
 
 .icon {
@@ -116,4 +116,68 @@ body {
   display: block;
 }
 
+@media (max-width: 768px) {
+  .LoginBG {
+    width: 80vw;
+    padding: 15px;
+  }
 
+  .Login {
+    font-size: 1.8em;
+  }
+
+  .Username,
+  .Password {
+    font-size: 1.1em;
+  }
+
+  .Submit button {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 500px) {
+  .LoginBG {
+    width: 95vw;
+    height: 55vh;
+    padding: 10px;
+  }
+
+  .Login {
+    font-size: 1.5em;
+  }
+
+  .Username,
+  .Password {
+    font-size: 1em;
+    margin-left: 2.1rem;
+  }
+
+  .input-box {
+    position: relative;
+    margin-left: 2.1rem;
+    margin-top: 10px;
+  }
+  
+  .inp,
+  .inp2 {
+    width: 18.7em;
+    height: 2.5em;
+    border-radius: 5px;
+    padding-left: 2.2rem; 
+  }
+
+  .Submit button {
+    font-size: medium;
+    margin-left: 2.1em;
+  }
+
+  .SignUpLink {
+    font-size: 0.9em;
+    margin-left: 2.6rem;
+  }
+
+  .error-message {
+    font-size: 0.8em;
+  }
+}

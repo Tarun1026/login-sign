@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(253, 253, 253);
-    width: 74vw;
+    width: 37vw;
     height: 93vh;
     border-radius: 15px;
     background: linear-gradient(#9c95ea, #9aceea);
@@ -99,4 +99,65 @@ body {
     
     margin-left: 140px;
     display: block;
+  }
+
+  @media (max-width: 768px) {
+    .SignUpBG {
+      width: 80vw;
+      padding: 15px;
+    }
+  
+    .SignUp {
+      font-size: 1.8em;
+    }
+  
+    .SubmitSignUp button {
+      font-size: medium;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .SignUpBG {
+      width: 95vw;
+      padding: 10px;
+      height: 72vh;
+    }
+  
+    .SignUp {
+      font-size: 1.5em;
+    }
+
+    .inpS{
+      margin-left: 2.5rem;
+      margin-top: 20px;
+      width: 298px;
+      height: 36px;
+      border-radius: 5px;
+      padding-left: 30px;
+    }
+
+    .icons {
+      position: absolute;
+      top: 50%;
+      left: 1px;
+      transform: translateX(270%);
+  
+      font-size: 16px;
+      color: #0a0a0a;
+    }
+  
+    .SubmitSignUp button {
+      font-size: medium;
+      margin-left: 2.5rem;
+    }
+  
+    .LoginLink {
+      font-size: 0.9em;
+      margin-left:2.8rem;
+    }
+  
+    .error-message-2 {
+      font-size: 0.8em;
+      margin-left: 4.5rem;
+    }
   }
