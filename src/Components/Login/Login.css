@@ -10,8 +10,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 90vh;
-  margin-top:30px ;
-  font-size: 20px;
+  margin:30px ;
+  font-size: 1em;
 }
 
 .LoginBG {
@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(253, 253, 253);
-  width: 62vh;
+  width: 31vw;
   height: 65vh;
   border-radius: 15px;
  /* margin-top: 25px; */
@@ -28,7 +28,7 @@ body {
 
 .Login {
   color: rgba(6, 6, 6, 0.842);
-  font-size: 1.5em;
+  font-size: 2em;
   display: flex;
   justify-content: center;
   margin: 10px;
@@ -39,7 +39,7 @@ body {
 
 .Username {
   margin-left: 90px;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 900;
   font-style: normal;
   margin-top: 35px;
@@ -47,7 +47,7 @@ body {
 
 .Password {
   margin-left: 90px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 900;
   font-style: normal;
   margin-top: 20px;
