@@ -1,5 +1,7 @@
 body {
-  background:url('./Components/Assests/2314950.webp')
+  background-image: url('../Assests/2314950.webp');
+  
+
   
 }
 
@@ -7,9 +9,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
-  
+  height: 90vh;
+  margin-top:30px ;
+  font-size: 20px;
 }
 
 .LoginBG {
@@ -17,27 +19,27 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(253, 253, 253);
-  width: 450px;
-  height: 500px;
+  width: 62vh;
+  height: 65vh;
   border-radius: 15px;
- 
+ /* margin-top: 25px; */
   background: linear-gradient(#9c95ea, #9aceea);
 }
 
 .Login {
   color: rgba(6, 6, 6, 0.842);
-  font-size: 30px;
+  font-size: 1.5em;
   display: flex;
   justify-content: center;
   margin: 10px;
   font-weight: 900;
-  margin-right: 210px;
+  margin-right: 215px;
   margin-top: 60px;
 }
 
 .Username {
   margin-left: 90px;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 900;
   font-style: normal;
   margin-top: 35px;
@@ -84,6 +86,8 @@ body {
   background-color: rgb(69, 81, 209);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
+  cursor: pointer;
+  
 }
 
 .Submit button:hover {

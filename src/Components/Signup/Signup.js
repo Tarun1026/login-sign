@@ -46,6 +46,10 @@ function SignUp() {
       validationErrors.Confirm_Password = "Password is required";
     }
 
+    if(user.Create_Password!=user.Confirm_Password){
+      validationErrors.Confirm_Password="Password not matched"
+    }
+
     setErrors(validationErrors);
 
     if (Object.keys(validationErrors).length === 0) {

@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 25px;
     
   }
 
@@ -16,8 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(253, 253, 253);
-    width: 550px;
-    height: 700px;
+    width: 74vh;
+    height: 93vh;
     border-radius: 15px;
     background: linear-gradient(#9c95ea, #9aceea);
   }
@@ -76,6 +76,7 @@ body {
     background-color: rgb(69, 81, 209);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+    cursor: pointer;
   }
   
   .SubmitSignUp button:hover {

@@ -1,6 +1,6 @@
 import React from 'react'
-import Login from './Login'
-import Signup from './Signup'
+import Login from './Components/Login/Login'
+import Signup from './Components/Signup/Signup'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ProtectedRoute from './ProtectedRoute'
 
