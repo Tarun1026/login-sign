@@ -116,7 +116,7 @@ body {
     }
   }
   
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     .SignUpBG {
       width: 95vw;
       padding: 10px;
@@ -124,7 +124,8 @@ body {
     }
   
     .SignUp {
-      font-size: 18px;
+      font-size: 1.8em;
+      margin-right: 13.125rem;
     }
 
     .inpS{
@@ -154,11 +155,11 @@ body {
   
     .LoginLink {
       font-size: 0.9em;
-      margin-left:2.8rem;
+      margin-left:2rem;
     }
   
     .error-message-2 {
       font-size: 0.8em;
-      margin-left: 4.5rem;
+      margin-left: 2.8rem;
     }
   }
