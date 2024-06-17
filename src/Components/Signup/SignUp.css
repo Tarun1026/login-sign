@@ -116,21 +116,21 @@ body {
     }
   }
   
-  @media (max-width: 500px) {
+  @media (max-width: 400px) {
     .SignUpBG {
       width: 95vw;
       padding: 10px;
-      height: 72vh;
+      height: 90vh;
     }
   
     .SignUp {
-      font-size: 1.5em;
+      font-size: 18px;
     }
 
     .inpS{
-      margin-left: 2.5rem;
+      margin-left: 1.2rem;
       margin-top: 20px;
-      width: 298px;
+      width: 17.6rem;
       height: 36px;
       border-radius: 5px;
       padding-left: 30px;
@@ -140,7 +140,7 @@ body {
       position: absolute;
       top: 50%;
       left: 1px;
-      transform: translateX(270%);
+      transform: translateX(170%);
   
       font-size: 16px;
       color: #0a0a0a;
@@ -148,7 +148,8 @@ body {
   
     .SubmitSignUp button {
       font-size: medium;
-      margin-left: 2.5rem;
+      margin-left: 1.2rem;
+      width: 19.6rem;
     }
   
     .LoginLink {
