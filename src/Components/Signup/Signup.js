@@ -41,7 +41,7 @@ function SignUp() {
     if (!user.Create_Password.trim()) {
       validationErrors.Create_Password = "Password is required";
      
-    } else if (!user.Create_Password.length<6) {
+    } else if (user.Create_Password.length<6) {
       validationErrors.Create_Password = "Password should be greater than 6 character";
     }
     
