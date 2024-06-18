@@ -103,7 +103,8 @@ body {
 
   @media (max-width: 768px) {
     .SignUpBG {
-      width: 80vw;
+      width: 70vw;
+      height: 70vh;
       padding: 15px;
     }
   
@@ -150,7 +151,7 @@ body {
     .SubmitSignUp button {
       font-size: medium;
       margin-left: 1.2rem;
-      width: 19.6rem;
+      width: 19.8rem;
     }
   
     .LoginLink {
